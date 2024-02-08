@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -215,19 +215,133 @@ body{
     .container{
         width: 90%;
         justify-content: none;
+        /* left: 0; */
     }
     .report{
+        position: relative;
         width: 327px;
         height: 203px;
+        top: -15rem;
     }
     .jeremy{
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
         width: 327px;
         height: 133px;
+        display: flex;
+    }
+    .daily{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 6rem;
+    }
+    .daily button:nth-child(1){
+        margin-left: 2rem;
+    }
+    .daily button:nth-child(2){
+        margin-top: 2rem;
+        margin-left: -5rem;
+    }
+    .daily button:nth-child(3){
+        margin-left: -6rem;
+        margin-top: 2rem;
+    }
+    .jeremy :first-child{
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+        width: 20%;
+        height: 5rem;
     }
     .jeremy :nth-child(2){
-        
+        margin-left: 1rem;
+        margin-top: 2rem;
+        width: 50%;
     }
+    .jeremy :nth-child(3){
+        margin-top: 4rem;
+        font-size: 20px;
+        margin-left: -10.5rem;
+       
+    }
+    .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 7rem;
+        position: absolute;
+    }
+    .card-container:nth-child(1){
+        background-image: url(assets/icon-work.svg);
+        background-repeat: no-repeat;
+        background-position: top right ;
+        width: 327px;
+        height: 120px;
+        background-color: #FF8B64;
+        display: flex;
+        position: relative;
+        border-radius: 15px;
+    }
+    .card-container:nth-child(2){
+        background-image: url(assets/icon-play.svg);
+        background-repeat: no-repeat;
+        background-position: top right ;
+        width: 327px;
+        height: 120px;
+        background-color: #55C2E6;
+        display: flex;
+        position: relative;
+        border-radius: 15px;
+    }
+    .card-container:nth-child(3){
+        background-image: url(assets/icon-study.svg);
+        background-repeat: no-repeat;
+        background-position: top right ;
+        width: 327px;
+        height: 120px;
+        background-color: #FF5E7D;
+        display: flex;
+        position: relative;
+        border-radius: 15px;
+    }
+    .card-container:nth-child(4){
+        background-image: url(assets/icon-exercise.svg);
+        background-repeat: no-repeat;
+        background-position: top right ;
+        width: 327px;
+        height: 120px;
+        background-color: #4BCF82;
+        display: flex;
+        position: relative;
+        border-radius: 15px;
+    }
+    .card-container:nth-child(5){
+        background-image: url(assets/icon-social.svg);
+        background-repeat: no-repeat;
+        background-position: top right ;
+        width: 327px;
+        height: 120px;
+        background-color: #7335D2;
+        display: flex;
+        position: relative;
+        border-radius: 15px;
+    }
+    .card-container:nth-child(6){
+        background-image: url(assets/icon-self-care.svg);
+        background-repeat: no-repeat;
+        background-position: top right ;
+        width: 327px;
+        height: 120px;
+        background-color: #F1C75B;
+        display: flex;
+        position: relative;
+        border-radius: 15px;
+    }
+    .card{
+        width: 327px;
+        height: 160px;
+        flex-shrink: 0;
+        border-radius: 13px;
+        background: #1C204B;
+        position: absolute;
+        bottom: 0;
+        top: 3rem;
+    }
+   
 }
