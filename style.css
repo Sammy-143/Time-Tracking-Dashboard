@@ -366,3 +366,14 @@ body{
     }
    
 }
+@media (max-width: 320px){
+    .report{
+        position: relative;
+        width: 327px;
+        height: 203px;
+        top: -5rem;
+    }
+    .grid-container{
+        top: 18rem;
+    }
+}
