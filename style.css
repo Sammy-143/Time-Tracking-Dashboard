@@ -210,12 +210,11 @@ body{
     line-height: normal;
 }
 
-
+/* MEDIA QUERY FOR MOBILE */
 @media (min-width: 320px) and (max-width: 450px){
     .container{
         width: 90%;
-        justify-content: none;
-        /* left: 0; */
+        justify-content: center;
     }
     .report{
         position: relative;
@@ -234,16 +233,20 @@ body{
         position: absolute;
         top: 6rem;
     }
+    .daily button{
+       margin-right: 0;
+    }
     .daily button:nth-child(1){
         margin-left: 2rem;
+        margin-bottom: 1rem;
     }
     .daily button:nth-child(2){
-        margin-top: 2rem;
-        margin-left: -5rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
     }
     .daily button:nth-child(3){
-        margin-left: -6rem;
-        margin-top: 2rem;
+        margin-left: 4rem;
+        margin-top: 1rem;
     }
     .jeremy :first-child{
         margin-top: 1.5rem;
@@ -266,6 +269,7 @@ body{
         grid-template-columns: repeat(1, 1fr);
         gap: 7rem;
         position: absolute;
+        justify-content: center;
     }
     .card-container:nth-child(1){
         background-image: url(assets/icon-work.svg);
@@ -342,6 +346,9 @@ body{
         position: absolute;
         bottom: 0;
         top: 3rem;
+    }
+    .top{
+        padding: 1rem;
     }
    
 }
