@@ -350,5 +350,19 @@ body{
     .top{
         padding: 1rem;
     }
+    .bottom{
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 1rem;
+    }
+    .bottom p:nth-child(1){
+        width: 50%;
+        font-size: 45px;
+        margin-top: 1rem;
+    }
+    .bottom p:nth-child(2){
+      margin-top: 2rem;
+      margin-right: 1rem;
+    }
    
 }
