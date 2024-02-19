@@ -210,6 +210,40 @@ body{
     line-height: normal;
 }
 
+
+/* MEDIA QUERY FOR TABLET */
+@media (min-width: 768px) and (max-width: 1114px){
+   .container{
+    width: 80%;
+    justify-content: center;
+   }
+   .report{
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    height: 30rem;
+    top: -10rem;
+   }
+   .jeremy{
+    width: 100%;
+    height: 20rem;
+   }
+   .daily{
+    flex-direction: row;
+    position: absolute;
+   }
+   .grid-container{
+    grid-template-columns: repeat(2, 1fr);
+    top: 28rem;
+    /* left: 6rem; */
+    position: absolute;
+    width: 100%;
+    justify-items: center;
+}
+}
+
+
+
 /* MEDIA QUERY FOR MOBILE */
 @media (min-width: 320px) and (max-width: 450px){
     .container{
@@ -372,6 +406,9 @@ body{
         width: 327px;
         height: 203px;
         top: -5rem;
+    }
+    .container{
+        width: 10%;
     }
     .grid-container{
         top: 18rem;
