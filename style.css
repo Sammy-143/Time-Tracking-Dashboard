@@ -222,20 +222,42 @@ body{
     width: 100%;
     justify-content: center;
     height: 30rem;
-    top: -10rem;
+    top: -15rem;
    }
    .jeremy{
     width: 100%;
     height: 20rem;
+    display: flex;
+    flex-direction: column;
+   }
+   .jeremy :first-child{
+     width: 30%;
+     height: 114px;
+     margin-top: 6rem;
+     margin-left: 2rem;
+     border: 3px solid #fff;
+     border-radius: 50%;
+   }
+   .jeremy :nth-child(2){
+    margin-top: -5rem;
+     margin-left: 17rem;
+     font-size: 1.5rem;
+   }
+   .jeremy :nth-child(3){
+    margin-left: 15rem;
+   }
+   #dailyButton{
+    margin-top: -0.5rem;
    }
    .daily{
+    width: 20%;
+    margin: 0 4rem;
     flex-direction: row;
     position: absolute;
    }
    .grid-container{
     grid-template-columns: repeat(2, 1fr);
     top: 28rem;
-    /* left: 6rem; */
     position: absolute;
     width: 100%;
     justify-items: center;
