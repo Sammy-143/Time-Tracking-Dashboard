@@ -92,7 +92,6 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /* margin-bottom: 2rem; */
     background-color: transparent;
     border: none;
 }
@@ -221,25 +220,25 @@ body{
     position: relative;
     width: 100%;
     justify-content: center;
-    height: 30rem;
+    height: 23rem;
     top: -15rem;
    }
    .jeremy{
     width: 100%;
-    height: 20rem;
+    height: 15rem;
     display: flex;
     flex-direction: column;
    }
    .jeremy :first-child{
      width: 30%;
      height: 114px;
-     margin-top: 6rem;
+     margin-top: 3rem;
      margin-left: 2rem;
      border: 3px solid #fff;
      border-radius: 50%;
    }
    .jeremy :nth-child(2){
-    margin-top: -5rem;
+    margin-top: -6rem;
      margin-left: 17rem;
      font-size: 1.5rem;
    }
@@ -247,7 +246,13 @@ body{
     margin-left: 15rem;
    }
    #dailyButton{
-    margin-top: -0.5rem;
+    margin-top: -2rem;
+   }
+   #weeklyButton{
+    margin-top: -2rem;
+   }
+   #monthlyButton{
+    margin-top: -2rem;
    }
    .daily{
     width: 20%;
